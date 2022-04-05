@@ -17,13 +17,11 @@ Install with npm
 ## Usage/Examples
 
 ```javascript
-<script>
-    import Circum-icons from "circum-icons";
-</script>
+// Add first line below in script tag
+import Circum-icons from "circum-icons";
 
-// Component
+
 <Circum-icons name="calendar"/>
-
 // You can change color and size
 <Circum-icons name="calendar" color="#000" size="48px">
 ```
