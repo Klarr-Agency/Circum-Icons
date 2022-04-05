@@ -1,4 +1,4 @@
-# Circum icons pack
+# Circum icons pack (WIP)
 
 This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistancy throught all the set and insure that each icons has the same visual weight.
 
