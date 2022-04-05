@@ -2,7 +2,7 @@
 	export let name: string;
 	export let size: string = "32px";
 	export let color: string = "#fff";
-	let icons: any = [
+	let icons: Array<any> = [
         {
 			box: 24,
 			name: 'calendar',
