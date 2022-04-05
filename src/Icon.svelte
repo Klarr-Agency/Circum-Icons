@@ -1,8 +1,8 @@
-<script lang="ts">
-	export let name: string;
-	export let size: string = "32px";
-	export let color: string = "#fff";
-	let icons: Array<any> = [
+<script>
+	export let name;
+	export let size = "32px";
+	export let color = "#fff";
+	let icons = [
         {
 			box: 24,
 			name: 'calendar',
