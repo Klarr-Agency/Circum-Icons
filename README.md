@@ -18,12 +18,12 @@ Install with npm
 
 ```javascript
 // Add first line below in script tag
-import Circum-icons from "circum-icons";
+import CircumIcon from "circum-icons";
 
 
-<Circum-icons name="calendar"/>
+<CircumIcon name="calendar"/>
 // You can change color and size
-<Circum-icons name="calendar" color="#000" size="48px">
+<CircumIcon name="calendar" color="#000" size="48px">
 ```
 
 ## Authors
