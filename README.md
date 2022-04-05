@@ -1,6 +1,6 @@
 # Circum icons pack (WIP)
 
-This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistancy throught all the set and insure that each icons has the same visual weight.
+This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throught all the set and insure that each icon has the same visual weight.
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
