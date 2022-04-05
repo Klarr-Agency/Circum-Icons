@@ -1,5 +1,5 @@
 {
-    "name": "circum",
+    "name": "@klarr-agency/circum-icons",
     "version": "1.0.0",
     "module": "dist/index.mjs",
     "main": "dist/index.js",
