@@ -21,7 +21,9 @@ Install with npm
     import Circum-icons from "circum-icons";
 </script>
 
+// Component
 <Circum-icons name="calendar"/>
+
 // You can change color and size
 <Circum-icons name="calendar" color="#000" size="48px">
 ```
