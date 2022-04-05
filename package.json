@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "module": "dist/index.mjs",
     "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Klarr-Agency/Circum-icons"
+    }, 
     "scripts": {
         "build": "rollup -c",
         "dev": "rollup -c -w",
@@ -28,7 +32,7 @@
         "typescript": "^3.9.6"
     },
     "publishConfig": {
-        "registry": "http://registry.circumicons.com:4873"
+        "registry":"https://npm.pkg.github.com"
     },
     "keywords": [
         "svelte"
