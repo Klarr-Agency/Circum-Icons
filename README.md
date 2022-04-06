@@ -18,7 +18,7 @@ Install with npm
 
 ```javascript
 // Add first line below in script tag
-import CircumIcon from "circum-icons";
+import CircumIcon from "@klarr-agency/circum-icons";
 
 
 <CircumIcon name="calendar"/>
