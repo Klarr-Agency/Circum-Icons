@@ -1,7 +1,13 @@
 <script>
+    import { writable } from 'svelte/store';
+
+    export const iconSettings = writable({
+        color: '#fff',
+        size: '32px',
+    });
 	export let name;
-	export let size = "32px";
-	export let color = "#fff";
+    export let size = $iconSettings.size;
+	export let color = $iconSettings.color;
 	let icons = [
         {
 			box: 24,
