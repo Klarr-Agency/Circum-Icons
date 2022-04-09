@@ -2,6 +2,8 @@
 
 This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throught all the set and insure that each icon has the same visual weight.
 
+👇 Available for these frameworks👇 <p style="color:#61dafb; display:inline-block; font-size:21px;">React</p>, <p style="color:#42b883;display:inline-block;font-size:21px;">Vue</p> and <p style="color:#ff3e00;display:inline-block;font-size:21px;">Svelte</p>
+
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
@@ -12,6 +14,13 @@ Install with npm
 
 ```bash
   npm i -D @klarr-agency/circum-icons
+```
+
+```bash
+  ? Choose your framework › - Use arrow-keys. Return to submit.
+  ❯ Svelte
+    React
+    Vue
 ```
 
 ## Usage/Examples
