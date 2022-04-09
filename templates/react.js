@@ -11,8 +11,8 @@ const name = pkg.name
 export default {
 	input: "src/react.js",
 	output: [
-		{ file: pkg.module, format: "esm" },
-		{ file: pkg.main, format: "cjs", name },
+		{ file: "dist/react/index.mjs", format: "esm" },
+		{ file: "dist/react/index.js", format: "cjs", name },
 	],
 	plugins: [resolve(), commonjs(), jsx({ factory: "React.createElement" })],
 };
