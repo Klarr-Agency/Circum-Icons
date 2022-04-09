@@ -32,5 +32,8 @@
     },
     "keywords": [
         "svelte"
-    ]
+    ],
+    "dependencies": {
+        "prompts": "^2.4.2"
+    }
 }
