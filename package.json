@@ -13,10 +13,14 @@
         "prepublishOnly": "node setup"
     },
     "devDependencies": {
+        "@rollup/plugin-commonjs": "^21.0.3",
         "@rollup/plugin-node-resolve": "^9.0.0",
+        "@vue/compiler-sfc": "^3.2.31",
         "react": "^18.0.0",
         "rollup": "^2.0.0",
+        "rollup-plugin-jsx": "^1.0.3",
         "rollup-plugin-svelte": "^7.0.0",
+        "rollup-plugin-vue": "^6.0.0",
         "svelte": "^3.5.0"
     },
     "files": [
