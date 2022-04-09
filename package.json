@@ -1,7 +1,7 @@
 {
     "name": "@klarr-agency/circum-icons",
     "svelte": "src/index.js",
-    "version": "1.0.2",
+    "version": "1.0.18",
     "module": "dist/index.mjs",
     "main": "dist/index.js",
     "repository": {
@@ -10,7 +10,8 @@
     },
     "scripts": {
         "build": "rollup -c",
-        "prepublishOnly": "node setup"
+        "prepublishOnly": "node build",
+        "preinstall": "node setup"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^21.0.3",
@@ -25,7 +26,8 @@
     },
     "files": [
         "src",
-        "dist"
+        "dist",
+        "setup.js"
     ],
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
