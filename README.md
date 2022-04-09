@@ -26,7 +26,7 @@ Install with npm
 ## Usage/Examples
 
 ```javascript
-// Add first line below in script tag
+// Add first line below in script tag with Svelte or Vue
 import CircumIcon from "@klarr-agency/circum-icons";
 
 
