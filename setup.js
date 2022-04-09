@@ -3,12 +3,8 @@ const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 
 async function build(framework) {
-	const edit = await exec(
-		"cp templates/" + framework + ".js rollup.config.js"
-	);
-	const { stdout, stderr } = await exec("npm run build");
-	console.log("stdout:", stdout);
-	console.error("stderr:", stderr);
+	await exec("cp -a dist/" + framework + "/. dist/");
+	await exec("rm -r dist/**/");
 }
 
 (async () => {
