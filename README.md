@@ -2,7 +2,7 @@
 
 This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throught all the set and insure that each icon has the same visual weight.
 
-👇 Available for these frameworks👇 <p style="color:#61dafb; display:inline-block; font-size:21px;">React</p>, <p style="color:#42b883;display:inline-block;font-size:21px;">Vue</p> and <p style="color:#ff3e00;display:inline-block;font-size:21px;">Svelte</p>
+Available for these frameworks 👉  React, Vue and Svelte
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
