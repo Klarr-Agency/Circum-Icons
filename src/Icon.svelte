@@ -20,7 +20,6 @@
 </script>
 
 <svg
-	class={$$props.class}
 	width={size}
 	height={size}
 	viewBox="0 0 {displayIcon.box} {displayIcon.box}"

@@ -1,7 +1,7 @@
 {
     "name": "@klarr-agency/circum-icons",
-    "svelte": "src/index.js",
-    "version": "1.0.18",
+    "svelte": "src/svelte.js",
+    "version": "1.0.23",
     "module": "dist/index.mjs",
     "main": "dist/index.js",
     "repository": {
