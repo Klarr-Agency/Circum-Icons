@@ -2,7 +2,7 @@
 
 This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throught all the set and insure that each icon has the same visual weight.
 
-Available for these frameworks 👉  React, Vue and Svelte
+Available for these frameworks 👉 React, Vue and Svelte
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
@@ -33,6 +33,10 @@ import CircumIcon from "@klarr-agency/circum-icons";
 // You can change color and size
 <CircumIcon name="calendar" color="#000" size="48px">
 ```
+
+## Icons
+
+You can see the list of available icons on [circumicons.com](https://www.circumicons.com)
 
 ## Authors
 
