@@ -1,5 +1,5 @@
 import React from 'react';
-import icons from './iconList';
+import { icons } from './iconList';
 const Icon = ({ name, size, color, displayIcon }) => {
 
     displayIcon = icons.find((e) => e.name === name);

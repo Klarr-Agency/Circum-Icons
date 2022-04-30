@@ -1,5 +1,5 @@
 <script>
-	import icons from "./iconList.js";
+	import { icons } from "./iconList.js";
 	export default {
 		props: {
 			name: {
