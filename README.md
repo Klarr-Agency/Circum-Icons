@@ -36,7 +36,7 @@ import CircumIcon from "@klarr-agency/circum-icons";
 
 ## Icons
 
-You can see the list of available icons on [circumicons.com](https://www.circumicons.com)
+You can see the list of available icons on [circumicons.com](https://circumicons.com)
 
 ## Authors
 
