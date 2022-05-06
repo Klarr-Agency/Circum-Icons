@@ -4,8 +4,6 @@ This pack was created following Google material and IBM Carbon design principles
 
 Available for these frameworks 👉 React, Vue and Svelte
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 ## Installation
 
