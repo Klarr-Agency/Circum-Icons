@@ -9,8 +9,8 @@ const name = pkg.name
 export default {
 	input: "src/Icon.vue",
 	output: [
-		{ file: "dist/vue/index.mjs", format: "esm" },
-		{ file: "dist/vue/index.js", format: "umd", name },
+		{ file: "vue/index.mjs", format: "esm" },
+		{ file: "vue/index.js", format: "umd", name },
 	],
 	plugins: [vue()],
 };

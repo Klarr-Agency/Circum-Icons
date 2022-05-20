@@ -10,8 +10,8 @@ const name = pkg.name
 export default {
 	input: "src/svelte.js",
 	output: [
-		{ file: "dist/svelte/index.mjs", format: "es" },
-		{ file: "dist/svelte/index.js", format: "umd", name },
+		{ file: "svelte/index.mjs", format: "es" },
+		{ file: "svelte/index.js", format: "umd", name },
 	],
 	plugins: [svelte(), resolve()],
 };

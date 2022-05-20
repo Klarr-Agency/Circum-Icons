@@ -4,7 +4,6 @@ This pack was created following Google material and IBM Carbon design principles
 
 Available for these frameworks 👉 React, Vue and Svelte
 
-
 ## Installation
 
 Install with npm
@@ -13,18 +12,13 @@ Install with npm
   npm i -D @klarr-agency/circum-icons
 ```
 
-```bash
-  ? Choose your framework › - Use arrow-keys. Return to submit.
-  ❯ Svelte
-    React
-    Vue
-```
-
 ## Usage/Examples
 
 ```javascript
-// Add first line below in script tag with Svelte or Vue
-import CircumIcon from "@klarr-agency/circum-icons";
+// Add one of the 3 lines below corresponding to your framework
+import CircumIcon from "@klarr-agency/circum-icons/svelte"; // Svelte
+import CircumIcon from "@klarr-agency/circum-icons/react"; // React
+import CircumIcon from "@klarr-agency/circum-icons/vue"; // Vue
 
 
 <CircumIcon name="calendar"/>

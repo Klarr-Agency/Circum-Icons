@@ -1,7 +1,7 @@
 {
     "name": "@klarr-agency/circum-icons",
     "svelte": "src/svelte.js",
-    "version": "1.1.6",
+    "version": "1.1.31",
     "module": "dist/index.mjs",
     "main": "dist/index.js",
     "repository": {
@@ -10,8 +10,7 @@
     },
     "scripts": {
         "build": "rollup -c",
-        "prepublishOnly": "node build",
-        "preinstall": "node setup"
+        "prepublishOnly": "node build"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^21.0.3",
@@ -26,16 +25,16 @@
     },
     "files": [
         "src",
-        "dist",
-        "setup.js"
+        "react",
+        "vue",
+        "svelte"
     ],
     "publishConfig": {
         "registry": "https://npm.pkg.github.com"
     },
     "keywords": [
-        "svelte"
-    ],
-    "dependencies": {
-        "prompts": "^2.4.2"
-    }
+        "svelte",
+        "react",
+        "vue"
+    ]
 }
