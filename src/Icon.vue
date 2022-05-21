@@ -1,11 +1,9 @@
 <script>
 	import { icons } from "./iconList.js";
+
 	export default {
 		props: {
-			name: {
-				type: String,
-				default: null,
-			},
+			name: String,
 			size: {
 				type: String,
 				default: "32px",
@@ -14,21 +12,21 @@
 				type: String,
 				default: "#000",
 			},
-			displayIcon: {
-				type: String,
-				default: null,
+		},
+		computed: {
+			path() {
+				return icons.find((e) => e.name === this.name);
 			},
 		},
 	};
-	displayIcon = icons.find((e) => e.name === name);
 </script>
 
 <template>
 	<svg
-		width="{{size}}"
-		height="{{size}}"
+		:width="size"
+		:height="size"
 		viewBox="0 0 24 24"
-		fill="{{color}}"
-		v-html="displayIcon.svg"
+		:fill="color"
+		v-html="path.svg"
 	></svg>
 </template>
