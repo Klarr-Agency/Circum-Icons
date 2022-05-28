@@ -2,23 +2,33 @@
 
 This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throught all the set and insure that each icon has the same visual weight.
 
-Available for these frameworks 👉 React, Vue and Svelte
+Available for these frameworks 👉 [React](https://github.com/Klarr-Agency/circum-icons-react), [Vue](https://github.com/Klarr-Agency/circum-icons-vue) and [Svelte](https://github.com/Klarr-Agency/circum-icons-svelte)
 
 ## Installation
 
 Install with npm
 
+### React
 ```bash
-  npm i -D @klarr-agency/circum-icons
+  npm i -D @klarr-agency/circum-icons-react
+```
+### Vue.js
+```bash
+  npm i -D @klarr-agency/circum-icons-vue
+```
+### Svelte
+```bash
+  npm i -D @klarr-agency/circum-icons-svelte
 ```
 
 ## Usage/Examples
 
 ```javascript
 // Add one of the 3 lines below corresponding to your framework
-import CircumIcon from "@klarr-agency/circum-icons"; // Svelte
-import CircumIcon from "@klarr-agency/circum-icons/react"; // React
-import CircumIcon from "@klarr-agency/circum-icons/vue"; // Vue
+import CircumIcon from "@klarr-agency/circum-icons-react"; // React
+import CircumIcon from "@klarr-agency/circum-icons-vue"; // Vue
+import CircumIcon from "@klarr-agency/circum-icons-svelte"; // Svelte
+
 
 
 <CircumIcon name="calendar"/>
