@@ -24,7 +24,7 @@ Install with npm
 ## Usage/Examples
 
 ```javascript
-// Add one of the 3 lines below corresponding to your framework
+// Add one of these 3 lines below corresponding to your framework
 import CircumIcon from "@klarr-agency/circum-icons-react"; // React
 import CircumIcon from "@klarr-agency/circum-icons-vue"; // Vue
 import CircumIcon from "@klarr-agency/circum-icons-svelte"; // Svelte
