@@ -1,8 +1,10 @@
-# Circum icons pack
+# Circum Icons
 
 This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throughtout all the set and ensure that each icon has the same visual weight.
 
 Available for these frameworks 👉 [React](https://github.com/Klarr-Agency/circum-icons-react), [Vue](https://github.com/Klarr-Agency/circum-icons-vue) and [Svelte](https://github.com/Klarr-Agency/circum-icons-svelte)
+
+![circum-demo](https://user-images.githubusercontent.com/87146097/178057507-65d46ca6-9663-465c-b2b7-593b6f2ddbdd.gif)
 
 ## Installation
 
