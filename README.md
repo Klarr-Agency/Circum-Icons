@@ -50,9 +50,10 @@ You can find this example here [Circum-Icons-SvelteKit-Demo](https://github.com/
 You can see the list of available icons on [circumicons.com](https://circumicons.com)
 
 ## Where to find us! 👀
-- [circumicons.com](https://circumicons.com)
 - [Reddit](https://www.reddit.com/r/circumicons/)
 - [Penpot Libraries](https://penpot.app/libraries-templates.html)
+- [Toools Design](https://www.toools.design/free-open-source-icon-libraries)
+- [Devresourc.es](https://devresourc.es/)
 - [Gumroad](https://klarr.gumroad.com/l/knlpl)
 
 ## Authors
