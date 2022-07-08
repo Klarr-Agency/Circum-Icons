@@ -4,7 +4,8 @@ This pack was created following Google material and IBM Carbon design principles
 
 Available for these frameworks 👉 [React](https://github.com/Klarr-Agency/circum-icons-react), [Vue](https://github.com/Klarr-Agency/circum-icons-vue) and [Svelte](https://github.com/Klarr-Agency/circum-icons-svelte)
 
-![circum-demo](https://user-images.githubusercontent.com/87146097/178057507-65d46ca6-9663-465c-b2b7-593b6f2ddbdd.gif)
+![Circum_Link (1)](https://user-images.githubusercontent.com/87146097/178076202-fbf32509-ec2e-4682-9a1a-ba7eb2da5c58.png)
+
 
 ## Installation
 
@@ -37,6 +38,12 @@ import CircumIcon from "@klarr-agency/circum-icons-svelte"; // Svelte
 // You can change color and size
 <CircumIcon name="calendar" color="#000" size="48px">
 ```
+## Features
+### Array Builder
+You can created a array directly on our website. Don't need to go back and forth to copy each icon name. <br>
+In this example, you can see how to build a side navigation 🏗👇
+<video controls loop autoplay src="https://user-images.githubusercontent.com/87146097/178076997-3ca71b79-df70-4ab0-b28d-3d5b6d4fba80.mp4"></video>
+
 
 ## Icons
 
