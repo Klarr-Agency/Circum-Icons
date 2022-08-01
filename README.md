@@ -49,6 +49,12 @@ You can find this example here [Circum-Icons-SvelteKit-Demo](https://github.com/
 
 You can see the list of available icons on [circumicons.com](https://circumicons.com)
 
+## Roadmap
+- [ ] Property manager (Possibility to add new properties in the Array Builder)
+- [ ] Add keywords to search terms
+- [ ] Clipboard options in single selection type (Component tag vs SVG)
+- [ ] Premium access // Array Builder for 809 icons, Component Builder and more
+
 ## Where to find us! 👀
 - [Reddit](https://www.reddit.com/r/circumicons/)
 - [Penpot Libraries](https://penpot.app/libraries-templates.html)
