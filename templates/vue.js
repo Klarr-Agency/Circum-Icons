@@ -1,4 +1,5 @@
 import vue from "rollup-plugin-vue";
+import commonjs from "rollup-plugin-commonjs";
 import pkg from "./package.json";
 
 const name = pkg.name
@@ -7,10 +8,10 @@ const name = pkg.name
 	.replace(/-\w/g, (m) => m[1].toUpperCase());
 
 export default {
-	input: "src/Icon.vue",
+	input: "src/vue.js",
 	output: [
 		{ file: "vue/index.mjs", format: "esm" },
 		{ file: "vue/index.js", format: "umd", name },
 	],
-	plugins: [vue()],
+	plugins: [vue(), commonjs()],
 };
