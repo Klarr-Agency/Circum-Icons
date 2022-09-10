@@ -4,6 +4,9 @@ This pack was created following Google material and IBM Carbon design principles
 
 Available for these frameworks 👉 [React](https://github.com/Klarr-Agency/circum-icons-react), [Vue](https://github.com/Klarr-Agency/circum-icons-vue) and [Svelte](https://github.com/Klarr-Agency/circum-icons-svelte)
 
+## Documentation
+[Français](https://github.com/Klarr-Agency/Circum-Icons/blob/main/README-FR.md)
+
 ![Circum_Link (1)](https://user-images.githubusercontent.com/87146097/178076202-fbf32509-ec2e-4682-9a1a-ba7eb2da5c58.png)
 
 
