@@ -1,0 +1,27 @@
+{
+	"name": "@klarr-agency/circum-icons-svelte",
+	"svelte": "src/index.js",
+	"version": "1.0.4",
+	"description": "Circum icons pack for svelte",
+	"module": "dist/index.mjs",
+	"main": "dist/index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Klarr-Agency/circum-icons-svelte"
+	},
+	"scripts": {
+		"build": "rollup -c",
+		"prepublishOnly": "npm run build"
+	},
+	"author": "Klarr Agency",
+	"files": [
+		"dist",
+		"src"
+	],
+	"devDependencies": {
+		"@rollup/plugin-node-resolve": "^13.3.0",
+		"rollup": "^2.75.0",
+		"rollup-plugin-svelte": "^7.1.0",
+		"svelte": "^3.48.0"
+	}
+}
