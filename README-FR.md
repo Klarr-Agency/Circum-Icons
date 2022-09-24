@@ -2,7 +2,7 @@
 
 Cette collection a été créée suivant les principes de design, Google Material et IBM Carbon. Notre objectif principal était de garder une certaine consistance à travers toute la collection et de s'assurer que chaque icône soit du même poids visuellement.
 
-Disponible pour ces frameworks 👉 [React](https://github.com/Klarr-Agency/circum-icons-react), [Vue](https://github.com/Klarr-Agency/circum-icons-vue) et [Svelte](https://github.com/Klarr-Agency/circum-icons-svelte)
+Disponible pour ces frameworks 👉 React, Vue and Svelte
 
 ## Documentation
 [English](https://github.com/Klarr-Agency/Circum-Icons/blob/main/README.md)
