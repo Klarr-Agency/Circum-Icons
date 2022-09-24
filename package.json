@@ -1,0 +1,25 @@
+{
+  "name": "circum-icons-monorepo",
+  "version": "1.0.0",
+  "description": "This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throughtout all the set and ensure that each icon has the same visual weight.",
+  "scripts": {
+    "build": "npx lerna run build",
+    "npm-publish": "npx lerna publish --no-private"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klarr-Agency/Circum-icons.git"
+  },
+  "author": "Klarr-agency",
+  "license": "MPL-2.0 license",
+  "bugs": {
+    "url": "https://github.com/Klarr-Agency/Circum-icons/issues"
+  },
+  "homepage": "https://github.com/Klarr-Agency/Circum-icons#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^5.5.2"
+  }
+}
