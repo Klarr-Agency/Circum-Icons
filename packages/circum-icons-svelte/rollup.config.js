@@ -8,10 +8,10 @@ const name = pkg.name
 	.replace(/-\w/g, (m) => m[1].toUpperCase());
 
 export default {
-	input: "src/svelte.js",
+	input: "src/index.js",
 	output: [
-		{ file: "svelte/index.mjs", format: "es" },
-		{ file: "svelte/index.js", format: "umd", name },
+		{ file: "dist/index.mjs", format: "es" },
+		{ file: "dist/index.js", format: "umd", name },
 	],
 	plugins: [svelte(), resolve()],
 };

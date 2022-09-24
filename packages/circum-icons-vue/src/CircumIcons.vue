@@ -1,5 +1,6 @@
 <script>
 	import { icons } from "./iconList.js";
+
 	export default {
 		name: "CircumIcons",
 		props: {
