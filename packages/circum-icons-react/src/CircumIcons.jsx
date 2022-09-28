@@ -6,11 +6,12 @@ const Icon = ({ name, size, color, displayIcon }) => {
 
     return (
         <svg
+            class={"circumicon__" + name}
             width={size}
             height={size}
             viewBox="0 0 24 24"
             fill={color}
-            dangerouslySetInnerHTML={{__html: displayIcon.svg}}
+            dangerouslySetInnerHTML={{ __html: displayIcon.svg }}
         >
         </svg>
     )

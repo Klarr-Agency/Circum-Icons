@@ -6,6 +6,12 @@
 	$: displayIcon = icons.find((e) => e.name === name);
 </script>
 
-<svg width={size} height={size} viewBox="0 0 24 24" fill={color}>
+<svg
+	class="circumicon__{name}"
+	width={size}
+	height={size}
+	viewBox="0 0 24 24"
+	fill={color}
+>
 	{@html displayIcon.svg}
 </svg>
