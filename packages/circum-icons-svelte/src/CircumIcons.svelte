@@ -1,7 +1,7 @@
 <script>
 	export let name;
 	export let size = "32px";
-	export let color = "#000";
+	export let color = "currentColor";
 	import { icons } from "./iconList";
 	$: displayIcon = icons.find((e) => e.name === name);
 </script>

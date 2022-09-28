@@ -18,7 +18,7 @@ const Icon = ({ name, size, color, displayIcon }) => {
 
 Icon.defaultProps = {
     size: '32px',
-    color: '#000'
+    color: 'currentColor'
 }
 
 export default Icon;
