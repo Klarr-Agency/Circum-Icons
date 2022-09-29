@@ -5,7 +5,7 @@
 	"main": "./dist/CircumIcons.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Klarr-Agency/circum-icons-vue"
+		"url": "https://github.com/Klarr-Agency/circum-icons"
 	},
 	"scripts": {
 		"build": "rollup -c",

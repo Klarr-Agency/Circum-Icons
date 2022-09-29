@@ -4,6 +4,10 @@
 	"description": "Circum icons pack for react",
 	"module": "dist/index.mjs",
 	"main": "dist/index.js",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/Klarr-Agency/circum-icons"
+	},
 	"scripts": {
 		"build": "rollup -c",
 		"prepublishOnly": "npm run build"

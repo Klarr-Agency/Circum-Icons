@@ -7,7 +7,7 @@
 	"main": "dist/index.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Klarr-Agency/circum-icons-svelte"
+		"url": "https://github.com/Klarr-Agency/circum-icons"
 	},
 	"scripts": {
 		"build": "rollup -c",
