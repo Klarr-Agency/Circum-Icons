@@ -66,6 +66,8 @@ You can see the list of available icons on [circumicons.com](https://circumicons
 - [ ] Download icons in color of choice 🎨
 - [ ] Resize icons on the fly 🚀
 - [ ] Clipboard options in single selection type (Component tag vs SVG).📌
+- [ ] Animate version 🎬
+- [ ] Duo tone & solid style for all 285 icons 😻
 - [ ] Premium access // Array Builder for 809 icons, Component Builder and more. 💸
 
 ## Where to find us! 👀
