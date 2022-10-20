@@ -1,6 +1,6 @@
 # Circum Icons
 
-This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throughtout all the set and ensure that each icon has the same visual weight.
+This library was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throughtout all the set and ensure that each icon has the same visual weight.
 
 Available for these frameworks 👉 React, Vue and Svelte
 ## Documentation
@@ -66,6 +66,8 @@ You can see the list of available icons on [circumicons.com](https://circumicons
 - [ ] Download icons in color of choice 🎨
 - [ ] Resize icons on the fly 🚀
 - [ ] Clipboard options in single selection type (Component tag vs SVG).📌
+- [ ] Animate version 🎬
+- [ ] Duo tone & solid style for all 285 icons 😻
 - [ ] Premium access // Array Builder for 809 icons, Component Builder and more. 💸
 
 ## Where to find us! 👀
