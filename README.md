@@ -1,5 +1,7 @@
 # Circum Icons
 
+[![Join the chat at https://gitter.im/Circum-Icons/community](https://badges.gitter.im/Circum-Icons/community.svg)](https://gitter.im/Circum-Icons/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This library was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throughtout all the set and ensure that each icon has the same visual weight.
 
 Available for these frameworks 👉 React, Vue and Svelte
