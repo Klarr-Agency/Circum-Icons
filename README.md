@@ -1,12 +1,18 @@
 # Circum Icons
 
+![npm](https://img.shields.io/npm/v/@klarr-agency/circum-icons-react?label=npm%20react)
+![npm](https://img.shields.io/npm/v/@klarr-agency/circum-icons-vue?color=sucess&label=npm%20vue)
+![npm](https://img.shields.io/npm/v/@klarr-agency/circum-icons-svelte?color=orange&label=npm%20svelte)
+[![Join the chat at https://gitter.im/Circum-Icons/community](https://badges.gitter.im/Circum-Icons/community.svg)](https://gitter.im/Circum-Icons/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This library was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throughtout all the set and ensure that each icon has the same visual weight.
 
 Available for these frameworks 👉 React, Vue and Svelte
 ## Documentation
 [Français](https://github.com/Klarr-Agency/Circum-Icons/blob/main/README-FR.md)
+[Español](https://github.com/Klarr-Agency/Circum-Icons/blob/main/README-ES.md)
 
-![Circum_Link (1)](https://user-images.githubusercontent.com/87146097/178076202-fbf32509-ec2e-4682-9a1a-ba7eb2da5c58.png)
+![Circum_Free-1](https://user-images.githubusercontent.com/87146097/200983971-2b1bf804-deec-490f-9ba2-088b25acc403.jpg)
 
 
 ## Installation
