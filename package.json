@@ -4,7 +4,8 @@
   "description": "This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throughtout all the set and ensure that each icon has the same visual weight.",
   "scripts": {
     "build": "npx lerna run build",
-    "npm-publish": "npx lerna publish --no-private"
+    "npm-publish": "npx lerna publish --no-private",
+    "npm-publish-github": "npx lerna publish from-package --yes --registry https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
