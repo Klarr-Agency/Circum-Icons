@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npx lerna run build",
     "npm-publish": "npx lerna publish --no-private",
-    "npm-publish-github": "npx lerna publish from-package --yes --registry https://npm.pkg.github.com"
+    "npm-publish-github": "npx lerna publish from-package --yes --registry https://npm.pkg.github.com --no-push"
   },
   "repository": {
     "type": "git",
