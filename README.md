@@ -75,6 +75,7 @@ You can see the list of available icons on [circumicons.com](https://circumicons
 - [ ] Animate version 🎬
 - [ ] Duo tone & solid style for all 285 icons 😻
 - [ ] Premium access // Array Builder for 809 icons, Component Builder and more. 💸
+- [ ] Add icons to Elementor for WordPress 📰
 
 ## Where to find us! 👀
 - [Reddit](https://www.reddit.com/r/circumicons/)
