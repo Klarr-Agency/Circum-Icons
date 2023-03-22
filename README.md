@@ -69,12 +69,13 @@ You can see the list of available icons on [circumicons.com](https://circumicons
 ## Roadmap
 - [X] Property manager (Possibility to add new properties in the Array Builder) 🏗
 - [ ] Add keywords to search terms 🔎
-- [ ] Download icons in color of choice 🎨
-- [ ] Resize icons on the fly 🚀
+- [X] Download icons in color of choice 🎨
+- [X] Resize icons on the fly 🚀
 - [ ] Clipboard options in single selection type (Component tag vs SVG).📌
 - [ ] Animate version 🎬
 - [ ] Duo tone & solid style for all 285 icons 😻
 - [ ] Premium access // Array Builder for 809 icons, Component Builder and more. 💸
+- [ ] Add icons to Elementor for WordPress 📰
 
 ## Where to find us! 👀
 - [Reddit](https://www.reddit.com/r/circumicons/)
