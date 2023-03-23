@@ -23,3 +23,10 @@ exec("cd ../../svg/ && for i in $( ls | grep [A-Z] ); do mv -f $i `echo $i | tr 
 // Add icons in the Array of iconList
 
 // Copy iconList.js file to each package
+const frameworks = ['react', 'svelte', 'vue'];
+frameworks.forEach(framework => {
+    fs.copyFile('iconList.js', `../circum-icons-${framework}/src/iconList.js`, (err) => {
+        if (err) throw err;
+        console.log(`iconList.js was copied to circum-icons-${framework}/src/`);
+    });
+});
