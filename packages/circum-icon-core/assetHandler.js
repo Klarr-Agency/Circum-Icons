@@ -1,3 +1,4 @@
+const fs = require('fs');
 const exec = require('child_process').exec;
 
 // Remove space in name and replaced it by underscore
@@ -18,8 +19,19 @@ exec("cd ../../svg/ && for i in $( ls | grep [A-Z] ); do mv -f $i `echo $i | tr 
              console.log('exec error: ' + error);
         }
     });
-// Remove unnecessery tags and attributes from the svgs
-
+// Remove unnecessary tags and attributes from the svgs
+const filenames = fs.readdirSync('../../svg');
+filenames.map((filename) => {
+    fs.readFile(filename, 'utf8', function (err,data) {
+      if (err) return console.log(err);
+        // Edit svg content here
+      var result = data.replace(/string to be replaced/g, 'replacement');
+    
+      fs.writeFile(filename, result, 'utf8', function (err) {
+         if (err) return console.log(err);
+      });
+    });
+});
 // Add icons in the Array of iconList
 
 // Copy iconList.js file to each package
