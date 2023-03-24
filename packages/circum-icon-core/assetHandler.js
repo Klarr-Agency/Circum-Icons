@@ -19,20 +19,29 @@ exec("cd ../../svg/ && for i in $( ls | grep [A-Z] ); do mv -f $i `echo $i | tr 
              console.log('exec error: ' + error);
         }
     });
-// Remove unnecessary tags and attributes from the svgs
-const filenames = fs.readdirSync('../../svg');
-filenames.map((filename) => {
-    fs.readFile(filename, 'utf8', function (err,data) {
-      if (err) return console.log(err);
-        // Edit svg content here
-      var result = data.replace(/string to be replaced/g, 'replacement');
-    
-      fs.writeFile(filename, result, 'utf8', function (err) {
-         if (err) return console.log(err);
-      });
-    });
+// Create an array with the name, keywords and the svg content
+const filenames = fs.readdirSync('./svg', {
+    withFileTypes: true
 });
-// Add icons in the Array of iconList
+let icons = [];
+filenames.map((element) => {
+    if (element.isDirectory()) {
+        const categoryFolder = fs.readdirSync(`./svg/${element.name}`, {
+            withFileTypes: true
+        });
+        // Get each file from each category folder
+        categoryFolder.map((file) => {
+            fs.readFile(`./svg/${element.name}/${file.name}`, 'utf8', function (err,data) {
+                if (err) return console.log(err);
+                // TO DO clean up data before pushing to array
+                icons.push({name: file.name.replace('.svg', ''), keywords:[`${element.name}`], svg: data});
+                console.log(icons);
+            }); 
+        });
+        //console.log(element.name)
+        //console.log(categoryFolder)
+    }
+});
 
 // Copy iconList.js file to each package
 const frameworks = ['react', 'svelte', 'vue'];
