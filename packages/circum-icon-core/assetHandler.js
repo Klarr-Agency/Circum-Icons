@@ -20,21 +20,21 @@ exec("cd ../../svg/ && for i in $( ls | grep [A-Z] ); do mv -f $i `echo $i | tr 
         }
     });
 // Create an array with the name, keywords and the svg content
-const filenames = fs.readdirSync('./svg', {
+const categories = fs.readdirSync('./svg', {
     withFileTypes: true
 });
 let icons = [];
-filenames.map((element) => {
-    if (element.isDirectory()) {
-        const categoryFolder = fs.readdirSync(`./svg/${element.name}`, {
+categories.map((category) => {
+    if (category.isDirectory()) {
+        const filesInCategory = fs.readdirSync(`./svg/${category.name}`, {
             withFileTypes: true
         });
         // Get each file from each category folder
-        categoryFolder.map((file) => {
-            fs.readFile(`./svg/${element.name}/${file.name}`, 'utf8', function (err,data) {
+        filesInCategory.map((file) => {
+            fs.readFile(`./svg/${category.name}/${file.name}`, 'utf8', function (err,data) {
                 if (err) return console.log(err);
                 // TO DO clean up data before pushing to array
-                icons.push({name: file.name.replace('.svg', ''), keywords:[`${element.name}`], svg: data});
+                icons.push({name: file.name.replace('.svg', ''), keywords:[`${category.name}`], svg: data});
                 console.log(icons);
             }); 
         });
