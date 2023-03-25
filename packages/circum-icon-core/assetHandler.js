@@ -20,15 +20,12 @@ exec("cd ../../svg/ && for i in $( ls | grep [A-Z] ); do mv -f $i `echo $i | tr 
         }
     });
 // Create an array with the name, keywords and the svg content
-const categories = fs.readdirSync('./svg', {
-    withFileTypes: true
-});
 let icons = [];
 
 const categories = fs.readdirSync('./svg', { withFileTypes: true });
 
 categories.forEach((category) => {
-    if (category.isDirectory()) {
+  if (category.isDirectory()) {
     const filesInCategory = fs.readdirSync(`./svg/${category.name}`, { withFileTypes: true });
 
     filesInCategory.forEach((file) => {
@@ -43,10 +40,29 @@ categories.forEach((category) => {
       .replace(/\n|\r/g, "");
 
       icons.push({ name: file.name.replace('.svg', ''), keywords: [`${category.name}`], svg: rawData });
-        });
-    }
+    });
+}
 });
 
+// Remove duplicate icons and merge their keyword values
+const output = Object.values(
+  icons.reduce(
+    (res, o) => ((res[o.name] ||= { ...o, keywords: [] }).keywords.push(o.keywords.toString()), res),
+    {}
+  )
+);
+icons = output;
+// Create iconList.js file
+let fileContent = `export const icons = ${JSON.stringify(icons, null, 2)
+    .replace(/"([^"]+)":/g, '$1:')
+    .replace(/'/g, "\\'")
+    .replace(/"/g, "'")
+};`;
+  
+fs.writeFile('icons.js', fileContent, (err) => {
+    if (err) throw err;
+    console.log('File saved successfully!');
+});
 // Copy iconList.js file to each package
 const frameworks = ['react', 'svelte', 'vue'];
 frameworks.forEach(framework => {
