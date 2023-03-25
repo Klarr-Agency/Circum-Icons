@@ -24,22 +24,26 @@ const categories = fs.readdirSync('./svg', {
     withFileTypes: true
 });
 let icons = [];
-categories.map((category) => {
+
+const categories = fs.readdirSync('./svg', { withFileTypes: true });
+
+categories.forEach((category) => {
     if (category.isDirectory()) {
-        const filesInCategory = fs.readdirSync(`./svg/${category.name}`, {
-            withFileTypes: true
+    const filesInCategory = fs.readdirSync(`./svg/${category.name}`, { withFileTypes: true });
+
+    filesInCategory.forEach((file) => {
+      const data = fs.readFileSync(`./svg/${category.name}/${file.name}`, 'utf8');
+      // Remove unnecessary html tags
+      var rawData = data
+      .replace(`<?xml version="1.0" encoding="UTF-8" standalone="no"?>`, '')
+      .replace('<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">', '')
+      .replace(/<rect.*>/gi, "\n")
+      .replace('<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">', '')
+      .replace(`</svg>`, '')
+      .replace(/\n|\r/g, "");
+
+      icons.push({ name: file.name.replace('.svg', ''), keywords: [`${category.name}`], svg: rawData });
         });
-        // Get each file from each category folder
-        filesInCategory.map((file) => {
-            fs.readFile(`./svg/${category.name}/${file.name}`, 'utf8', function (err,data) {
-                if (err) return console.log(err);
-                // TO DO clean up data before pushing to array
-                icons.push({name: file.name.replace('.svg', ''), keywords:[`${category.name}`], svg: data});
-                console.log(icons);
-            }); 
-        });
-        //console.log(element.name)
-        //console.log(categoryFolder)
     }
 });
 
