@@ -1,6 +1,6 @@
 {
 	"name": "@klarr-agency/circum-icons-react",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "Circum icons pack for react",
 	"module": "dist/index.mjs",
 	"main": "dist/index.js",
@@ -19,9 +19,9 @@
 		"rollup": "^2.74.1",
 		"rollup-plugin-jsx": "^1.0.3"
 	},
-    "peerDependencies": {
-        "react": "^18.1.0"
-    },
+	"peerDependencies": {
+		"react": "^18.1.0"
+	},
 	"files": [
 		"dist",
 		"src"
