@@ -50,7 +50,6 @@ import CircumIcon from "@klarr-agency/circum-icons-svelte"; // Svelte
 ### Array Builder
 You can created an array directly on our website. Don't need to go back and forth to copy each icon name. <br>
 In this example, you can see how to build a side navigation 🏗👇
-<video controls loop autoplay src="https://user-images.githubusercontent.com/87146097/178076997-3ca71b79-df70-4ab0-b28d-3d5b6d4fba80.mp4"></video>
 You can find this example here [Circum-Icons-SvelteKit-Demo](https://github.com/Klarr-Agency/Circum-Icons-SvelteKit-Demo)
 
 ### Create Properties
