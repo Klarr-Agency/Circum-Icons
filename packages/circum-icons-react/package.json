@@ -26,9 +26,6 @@
 		"dist",
 		"src"
 	],
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	},
 	"keywords": [
 		"circumicons",
 		"icons",
