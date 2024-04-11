@@ -1,27 +1,52 @@
 {
 	"name": "@klarr-agency/circum-icons-svelte",
-	"svelte": "src/index.js",
 	"version": "2.0.2",
-	"description": "Circum icons pack for svelte",
-	"module": "dist/index.mjs",
-	"main": "dist/index.js",
+	"author": "Klarr Agency",
 	"repository": {
-		"type": "git",
-		"url": "https://github.com/Klarr-Agency/circum-icons"
+	  "type": "git",
+	  "url": "https://github.com/Klarr-Agency/circum-icons"
 	},
 	"scripts": {
-		"build": "rollup -c",
-		"prepublishOnly": "npm run build"
+		"dev": "vite dev",
+		"build": "vite build && npm run package",
+		"preview": "vite preview",
+		"package": "svelte-kit sync && svelte-package && publint",
+		"prepublishOnly": "npm run package",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
-	"author": "Klarr Agency",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		},
+		"./CircumIcons.svelte": {
+			"types": "./dist/svelte/CircumIcons.svelte.d.ts",
+			"svelte": "./dist/svelte/CircumIcons.svelte"
+		}
+	},
 	"files": [
 		"dist",
-		"src"
+		"!dist/**/*.test.*",
+		"!dist/**/*.spec.*"
 	],
+	"peerDependencies": {
+		"svelte": "^4.0.0"
+	},
 	"devDependencies": {
-		"@rollup/plugin-node-resolve": "^13.3.0",
-		"rollup": "^2.75.0",
-		"rollup-plugin-svelte": "^7.1.0",
-		"svelte": "^3.48.0"
-	}
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/package": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"publint": "^0.1.9",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.6.0",
+		"tslib": "^2.4.1",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.11"
+	},
+	"svelte": "./dist/index.js",
+	"main": "dist/index.js",
+	"types": "./dist/index.d.ts",
+	"type": "module"
 }
