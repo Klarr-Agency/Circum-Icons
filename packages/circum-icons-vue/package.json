@@ -1,32 +1,40 @@
 {
-	"name": "@klarr-agency/circum-icons-vue",
-	"version": "2.0.2",
-	"description": "Circum icons pack for vue.js",
-	"main": "./dist/CircumIcons.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Klarr-Agency/circum-icons"
-	},
-	"scripts": {
-		"build": "rollup -c",
-		"prepublishOnly": "npm run build"
-	},
-	"author": "Klarr Agency",
-	"devDependencies": {
-		"rollup": "^2.74.1",
-		"rollup-plugin-vue": "^6.0.0"
-	},
-	"files": [
-		"dist",
-		"src"
-	],
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	},
-	"keywords": [
-		"circumicons",
-		"icons",
-		"pack",
-		"vue"
-	]
+  "name": "@klarr-agency/circum-icons-vue",
+  "version": "2.0.2",
+  "description": "Circum icons pack for vue.js",
+  "main": "./dist/CircumIcons.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Klarr-Agency/circum-icons"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Klarr Agency",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "rollup": "^2.74.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "circumicons",
+    "icons",
+    "pack",
+    "vue"
+  ],
+  "dependencies": {
+    "@types/vue": "^2.0.0",
+    "vue": "^3.4.21"
+  }
 }
