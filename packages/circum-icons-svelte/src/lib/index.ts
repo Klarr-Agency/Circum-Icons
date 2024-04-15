@@ -1,2 +1,2 @@
 // Reexport your entry components here
-export {default as CircumIcons } from "$lib/svelte/CircumIcons.svelte"
+export {default as CircumIcons } from "$lib/CircumIcons.svelte"

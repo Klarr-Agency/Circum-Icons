@@ -21,8 +21,8 @@
 			"svelte": "./dist/index.js"
 		},
 		"./CircumIcons.svelte": {
-			"types": "./dist/svelte/CircumIcons.svelte.d.ts",
-			"svelte": "./dist/svelte/CircumIcons.svelte"
+			"types": "./dist/CircumIcons.svelte.d.ts",
+			"svelte": "./dist/CircumIcons.svelte"
 		}
 	},
 	"files": [

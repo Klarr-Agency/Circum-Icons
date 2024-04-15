@@ -15,6 +15,7 @@
   "author": "Klarr Agency",
   "devDependencies": {
     "@types/node": "^20.12.7",
+    "@types/vue": "^2.0.0",
     "rollup": "^2.74.1",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-vue": "^6.0.0"
@@ -32,8 +33,7 @@
     "pack",
     "vue"
   ],
-  "dependencies": {
-    "@types/vue": "^2.0.0",
+  "peerDependencies": {
     "vue": "^3.4.21"
   }
 }

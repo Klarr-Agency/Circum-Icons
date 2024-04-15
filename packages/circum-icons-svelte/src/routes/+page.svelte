@@ -1,5 +1,5 @@
 <script>
-  import CircumIcons from "$lib/svelte/CircumIcons.svelte";
+  import CircumIcons from "$lib/CircumIcons.svelte";
 
 </script>
 <h1>Welcome to your library project</h1>
