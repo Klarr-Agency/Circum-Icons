@@ -15,12 +15,12 @@ Install with npm
 ## Usage/Examples
 
 ```javascript
-import CircumIcon from "@klarr-agency/circum-icons-svelte";
+import {CircumIcons} from "@klarr-agency/circum-icons-svelte";
 
 
-<CircumIcon name="calendar"/>
+<CircumIcons name="calendar"/>
 // You can change color and size
-<CircumIcon name="calendar" color="#000" size="48px">
+<CircumIcons name="calendar" color="#000" size="48px">
 ```
 
 ## Icons
