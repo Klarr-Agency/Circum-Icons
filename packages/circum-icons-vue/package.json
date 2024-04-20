@@ -1,28 +1,23 @@
 {
   "name": "@klarr-agency/circum-icons-vue",
+  "author": "Klarr Agency",
   "version": "2.0.2",
   "description": "Circum icons pack for vue.js",
-  "main": "./dist/CircumIcons.js",
+  "main": "./dist/CircumIcons.umd.js",
+  "module": "./dist/CircumIcons.es.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Klarr-Agency/circum-icons"
   },
   "scripts": {
-    "build": "rollup -c",
-    "prepublishOnly": "npm run build"
-  },
-  "author": "Klarr Agency",
-  "devDependencies": {
-    "@types/node": "^20.12.7",
-    "@types/vue": "^2.0.0",
-    "rollup": "^2.74.1",
-    "rollup-plugin-copy": "^3.5.0",
-    "rollup-plugin-vue": "^6.0.0"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
   "files": [
     "dist",
-    "src"
+    "src/lib"
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -35,5 +30,14 @@
   ],
   "peerDependencies": {
     "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/vue": "^2.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
   }
 }

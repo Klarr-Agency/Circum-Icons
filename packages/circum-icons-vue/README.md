@@ -1,32 +1,9 @@
-# Circum icons pack for Vue.js
+# Vue 3 + TypeScript + Vite
 
-This pack was created following Google material and IBM Carbon design principles. Our main goal was to keep a certain consistency throught all the set and insure that each icon has the same visual weight.
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-Available for these frameworks 👉 [React](https://github.com/Klarr-Agency/circum-icons-react), Vue and [Svelte](https://github.com/Klarr-Agency/circum-icons-svelte)
+## Recommended Setup
 
-## Installation
+- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
 
-Install with npm
-
-```bash
-  npm i -D @klarr-agency/circum-icons-vue
-```
-
-## Usage/Examples
-
-```javascript
-import CircumIcon from "@klarr-agency/circum-icons-vue";
-
-
-<CircumIcon name="calendar"/>
-// You can change color and size
-<CircumIcon name="calendar" color="#000" size="48px">
-```
-
-## Icons
-
-You can see the list of available icons on [circumicons.com](https://circumicons.com)
-
-## Authors
-
--   [@klarr-agency](https://www.github.com/klarr-agency)
+- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
