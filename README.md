@@ -38,7 +38,7 @@ Install with npm
 // Add one of these 3 lines below corresponding to your framework
 import CircumIcon from "@klarr-agency/circum-icons-react"; // React
 import CircumIcon from "@klarr-agency/circum-icons-vue"; // Vue
-import CircumIcon from "@klarr-agency/circum-icons-svelte"; // Svelte
+import { CircumIcons } from "@klarr-agency/circum-icons-svelte"; // Svelte
 
 
 
