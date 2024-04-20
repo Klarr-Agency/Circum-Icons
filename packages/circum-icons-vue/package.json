@@ -3,8 +3,7 @@
   "author": "Klarr Agency",
   "version": "2.0.2",
   "description": "Circum icons pack for vue.js",
-  "main": "./dist/CircumIcons.umd.js",
-  "module": "./dist/CircumIcons.es.js",
+  "main": "./dist/CircumIcons.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
@@ -36,6 +35,7 @@
     "@types/vue": "^2.0.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "rollup-plugin-copy": "^3.5.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vue-tsc": "^2.0.6"

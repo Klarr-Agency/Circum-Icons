@@ -1,15 +1,23 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import vueJsx from '@vitejs/plugin-vue-jsx';
+import copy from 'rollup-plugin-copy';
 
 export default defineConfig({
-	plugins: [vue(), vueJsx()],
+	plugins: [
+		vue(),
+		copy({
+			targets: [
+				{ src: "src/*.d.ts", dest: "dist/" }
+			],
+			hook: 'writeBundle'
+		})
+	],
 	build: {
 		lib: {
-			entry: 'src/lib/index.ts',
+			entry: 'src/lib/CircumIcons.vue',
 			name: 'CircumIcons',
-			formats: ['es', 'umd'],
-			fileName: (format) => `circumIcons.${format}.js`
+			formats: ['es'],
+			fileName: (format) => `CircumIcons.js`
 		},
 		rollupOptions: {
 			external: ['vue'],
